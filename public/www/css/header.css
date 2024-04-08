@@ -5,17 +5,21 @@
   background-color: #ffffff;
   border-bottom: 1px solid #e6e5e6;
 }
+
 .inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   width: calc(100% - 30px);
   max-width: 1170px;
   height: 70px;
   margin: 0 auto;
 }
+
 .header-logo {
 }
+
 .header-logo-link {
   display: flex;
   align-items: center;
@@ -31,7 +35,6 @@
   width: 68px;
   height: 31px;
 }
-
 .header-navi {
 }
 .navi-list {
@@ -46,16 +49,33 @@
   color: #1e1e1e;
   font-weight: 700;
 }
-.navi-list a:hover {
+
+.navi-list li a:hover {
   color: #1f24ff;
 }
-.navi-list li a img {
+
+.navi-search a {
+  display: block;
   width: 24px;
   height: 24px;
+  background: url("../images/icon/icon-search.png") no-repeat center;
+  background-size: contain;
 }
 
-.navi-mobile-menu {
+.navi-search a:hover {
+  background: url("../images/icon/icon-search-hover.png") no-repeat center;
+  background-size: contain;
+}
+
+.mobile-menu {
   display: none;
+}
+.mobile-menu a {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url("../images/icon/icon-hbr.png") no-repeat center;
+  background-size: contain;
 }
 
 /* 반응형 */
@@ -66,7 +86,7 @@
   .navi-list li {
     display: none;
   }
-  .navi-mobile-menu,
+  .mobile-menu,
   .navi-search {
     display: block !important;
   }
