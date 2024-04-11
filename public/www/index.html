@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <script src="js/test.js"></script>
   </head>
   <body>
     <!-- 전체 레이아웃 -->
@@ -33,6 +35,7 @@
               <!-- end 로고 슬라이드 -->
             </a>
           </div>
+
           <!-- 상단 메뉴 -->
           <nav class="header-navi">
             <ul class="navi-list">
@@ -58,14 +61,13 @@
             <div class="main-top-slide br-20">
               <a href="#">
                 <p class="slide-title">
-                  카카오브레인의 <br />
+                  카카오브레인의<br />
                   연구문화
                 </p>
               </a>
             </div>
-            <!-- 타이틀 배너 슬라이드-->
+            <!-- 타이틀 배너 슬라이드 -->
             <div class="main-top-banner br-20">
-              <!-- 바로가기 -->
               <a href="#">
                 <p class="slide-title">영입 중</p>
               </a>
@@ -96,6 +98,7 @@
                     </p>
                     <span class="list-box-day">2024.02.08</span>
                   </a>
+
                   <a href="#" class="list-box">
                     <div
                       class="list-box-img br-20"
@@ -113,16 +116,9 @@
                     </p>
                     <span class="list-box-day">2024.02.08</span>
                   </a>
+
                   <a href="#" class="list-box">
-                    <div
-                      class="list-box-img br-20"
-                      div
-                      class="list-box-img br-20"
-                      style="
-                        background: url('./images/c1.jpg') no-repeat center;
-                        background-size: cover;
-                      "
-                    ></div>
+                    <div class="list-box-img br-20"></div>
                     <div class="list-box-cate">
                       <img src="./images/icon/ic_krew.png" alt="카카오브레인" />
                       <span>Krew</span>
@@ -140,7 +136,7 @@
               </div>
               <!-- 추천글 리스트 -->
               <div class="main-bottom-list-picks">
-                <h2>Editor’s Pick 🏃🏻‍♀🏃‍♂🏃🏽</h2>
+                <h2>Editor’s Pick 🏃🏻‍♀️🏃‍♂️🏃🏽</h2>
                 <div class="list-wrap">
                   <a href="#" class="list-box">
                     <div
@@ -245,13 +241,29 @@
                     <span class="list-box-day">2024.02.08</span>
                   </a>
                 </div>
+
+                <div class="bt-wrap">
+                  <a href="#" class="bt-more">더보기</a>
+                </div>
               </div>
             </div>
+
             <!-- 메인 카드 영역 -->
             <div class="main-bottom-cards">
               <h2>폴더 📁</h2>
               <!-- 카드 슬라이드 -->
-              <div class="main-bottom-cards-slide"></div>
+              <div class="main-bottom-cards-slide">
+                <a href="#" class="card-link br-20">
+                  <div class="card-txt">
+                    <h3 class="card-title">AI Healthcare</h3>
+                    <span class="card-count">10</span>
+                  </div>
+                </a>
+              </div>
+
+              <div class="bt-wrap">
+                <a href="#" class="bt-more">전체보기</a>
+              </div>
             </div>
           </div>
         </div>
@@ -260,13 +272,22 @@
       <footer class="footer">
         <!-- 하단 사이트 정보 및 사이트 맵 -->
         <div class="footer-top">
-          <!-- 회사소개 -->
-          <div class="footer-top-info"></div>
-          <!-- 사이트맵 -->
-          <div class="footer-top-sitemap"></div>
+          <div class="inner">
+            <!-- 회사소개 -->
+            <div class="footer-top-info"></div>
+            <!-- 사이트맵 -->
+            <div class="footer-top-sitemap"></div>
+          </div>
         </div>
         <!-- 하단 카피라이터 및 SNS 링크 -->
-        <div class="footer-bottom"></div>
+        <div class="footer-bottom">
+          <div class="inner">
+            <!-- 카피라이터 -->
+            <div class="footer-bottom-copyright"></div>
+            <!-- SNS 목록 -->
+            <div class="footer-bottom-sns"></div>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
