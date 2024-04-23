@@ -19,12 +19,14 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- 외부 js 파일 방식 으로 진행 -->
     <script src="./js/header.js"></script>
     <script src="./js/logo.js"></script>
     <script src="./js/topslide.js"></script>
     <script src="./js/bannerslide.js"></script>
     <script src="./js/news.js"></script>
     <script src="./js/crew.js"></script>
+    <script src="./js/cards.js"></script>
   </head>
   <body>
     <!-- 전체 레이아웃 -->
@@ -351,12 +353,12 @@
               <h2>폴더 📁</h2>
               <!-- 카드 슬라이드 -->
               <div class="main-bottom-cards-slide">
-                <a href="#" class="card-link br-20">
-                  <div class="card-txt">
-                    <h3 class="card-title">AI Healthcare</h3>
-                    <span class="card-count">10</span>
+                <!-- 외부데이터 연동 -->
+                <div class="swiper cardslide">
+                  <div class="swiper-wrapper">
+                    <!-- 슬라이드들을 배치 -->
                   </div>
-                </a>
+                </div>
               </div>
 
               <div class="bt-wrap">
@@ -438,5 +440,3 @@
     </div>
   </body>
 </html>
-<!-- 외부 js 방식으로 진행 -->
-<!-- <script src="./js/logo.js"></script> -->
