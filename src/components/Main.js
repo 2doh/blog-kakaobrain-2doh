@@ -2,8 +2,6 @@ import React from "react";
 import MainTop from "./MainTop";
 import MainBottom from "./MainBottom";
 import "../css/main.css";
-import "../css/maintop.css";
-import "../css/mainbottom.css";
 
 const Main = () => {
   return (
